@@ -1,0 +1,28 @@
+:root {
+    --red: #ff0000;
+    --blue: #2200ff;
+    --green: #33ff00;
+    --yellow: #fbff00;
+    --orange: #ff4400;
+    --purple: #9100e5;
+    --pink: #fb00ff;
+    --brown: #40291e;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--red);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    color: var(--white);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
